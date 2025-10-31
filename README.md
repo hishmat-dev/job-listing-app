@@ -29,48 +29,6 @@ A comprehensive job listing web application built with Flask (Python) backend, R
 - **Database integration** with automatic job insertion
 - **Configurable scraping limits** and scheduling
 
-## 📁 Project Structure
-
-\`\`\`
-project-root/
-├── backend/
-│   ├── app.py                 # Flask application entry point
-│   ├── config.py              # Database and app configuration
-│   ├── db.py                  # Database initialization
-│   ├── models/
-│   │   └── job.py             # SQLAlchemy Job model
-│   ├── routes/
-│   │   └── job_routes.py      # API endpoints
-│   ├── requirements.txt       # Python dependencies
-│   └── .env.example          # Environment variables template
-├── scraper/
-│   ├── scrape.py             # Main scraping logic
-│   ├── run_scraper.py        # Scraper execution script
-│   └── README.md             # Scraper documentation
-├── frontend/
-│   ├── public/
-│   │   └── index.html        # HTML template
-│   ├── src/
-│   │   ├── components/       # React components
-│   │   │   ├── JobList.jsx
-│   │   │   ├── JobCard.jsx
-│   │   │   ├── JobForm.jsx
-│   │   │   ├── FilterBar.jsx
-│   │   │   ├── Header.jsx
-│   │   │   ├── Toast.jsx
-│   │   │   ├── LoadingSpinner.jsx
-│   │   │   ├── EmptyState.jsx
-│   │   │   ├── ErrorBoundary.jsx
-│   │   │   └── JobStats.jsx
-│   │   ├── App.jsx           # Main application component
-│   │   ├── App.css           # Application styles
-│   │   ├── api.jsx           # API communication layer
-│   │   └── index.jsx         # React entry point
-│   ├── package.json          # Node.js dependencies
-│   └── README.md             # Frontend documentation
-└── README.md                 # This file
-\`\`\`
-
 ## 🛠️ Setup Instructions
 
 ### Prerequisites
@@ -88,10 +46,10 @@ project-root/
    \`\`\`
 
 2. **Set up database**
-   \`\`\`bash
-   # Create database in PostgreSQL/MySQL
-   # Update DATABASE_URL in .env file
-   \`\`\`
+
+   - Create database in PostgreSQL/MySQL
+   - Update DATABASE_URL in .env file
+   
 
 3. **Run the application**
    \`\`\`bash
