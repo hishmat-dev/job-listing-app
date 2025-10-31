@@ -2,6 +2,9 @@
 
 A comprehensive job listing web application built with Flask (Python) backend, React frontend, and Selenium web scraping capabilities. Designed specifically for actuarial job postings with advanced filtering, sorting, and CRUD operations.
 
+## Video Link:
+- https://docs.google.com/videos/d/1FG0of89xquDEUx_Px7VV0TeiLDsaMkNOqk2PQHGpA5Q/edit?usp=sharing
+  
 ## 🚀 Features
 
 ### Backend (Flask API)
